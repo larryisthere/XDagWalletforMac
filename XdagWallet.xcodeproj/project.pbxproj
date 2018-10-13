@@ -14,6 +14,7 @@
 		8BF2D6C62162A3E3009F9D14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D6C42162A3E3009F9D14 /* Main.storyboard */; };
 		8BF2D6D22162A3E3009F9D14 /* XdagWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D6D12162A3E3009F9D14 /* XdagWalletTests.swift */; };
 		8BF2D6DD2162A3E3009F9D14 /* XdagWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D6DC2162A3E3009F9D14 /* XdagWalletUITests.swift */; };
+		8BFC02532170F00000E3A8B6 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC02522170F00000E3A8B6 /* PreferencesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		8BF2D6D82162A3E3009F9D14 /* XdagWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XdagWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF2D6DC2162A3E3009F9D14 /* XdagWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XdagWalletUITests.swift; sourceTree = "<group>"; };
 		8BF2D6DE2162A3E3009F9D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFC02522170F00000E3A8B6 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				8BF2D6C42162A3E3009F9D14 /* Main.storyboard */,
 				8BF2D6C72162A3E3009F9D14 /* Info.plist */,
 				8BF2D6C82162A3E3009F9D14 /* XdagWallet.entitlements */,
+				8BFC02522170F00000E3A8B6 /* PreferencesViewController.swift */,
 			);
 			path = XdagWallet;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				8BF2D6BF2162A3E2009F9D14 /* AppDelegate.swift in Sources */,
 				8BCB5CE42169A38600E241BF /* ContentViewController.swift in Sources */,
 				8BCB5CE22168E61E00E241BF /* MainFrameController.swift in Sources */,
+				8BFC02532170F00000E3A8B6 /* PreferencesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
