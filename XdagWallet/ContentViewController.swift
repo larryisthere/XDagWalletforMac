@@ -12,6 +12,16 @@ class ContentViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.wantsLayer = true
-        self.view.layer?.backgroundColor = NSColor.white.cgColor
+//        self.view.layer?.backgroundColor = NSColor.white.cgColor
+    }
+    
+    // TODO: Create a local wallet if it doesn't exsit.
+    func walletInit() {
+        
+    }
+    
+    // TODO: Refresh wallet status every time application is launched.
+    func walletRefresh() {
+        
     }
 }

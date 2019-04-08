@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0AA5D321736A3800B63BF3 /* Pools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AA5D121736A3800B63BF3 /* Pools.xcdatamodeld */; };
 		8BCB5CE22168E61E00E241BF /* MainFrameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB5CE12168E61E00E241BF /* MainFrameController.swift */; };
 		8BCB5CE42169A38600E241BF /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB5CE32169A38600E241BF /* ContentViewController.swift */; };
 		8BF2D6BF2162A3E2009F9D14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D6BE2162A3E2009F9D14 /* AppDelegate.swift */; };
@@ -14,6 +15,9 @@
 		8BF2D6C62162A3E3009F9D14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF2D6C42162A3E3009F9D14 /* Main.storyboard */; };
 		8BF2D6D22162A3E3009F9D14 /* XdagWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D6D12162A3E3009F9D14 /* XdagWalletTests.swift */; };
 		8BF2D6DD2162A3E3009F9D14 /* XdagWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2D6DC2162A3E3009F9D14 /* XdagWalletUITests.swift */; };
+		8BF9702C225B623800FAA0D6 /* ldus in Resources */ = {isa = PBXBuildFile; fileRef = 8BF97029225B623800FAA0D6 /* ldus */; };
+		8BF9702D225B623800FAA0D6 /* client in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9702A225B623800FAA0D6 /* client */; };
+		8BF9702E225B623800FAA0D6 /* dus in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9702B225B623800FAA0D6 /* dus */; };
 		8BFC02532170F00000E3A8B6 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC02522170F00000E3A8B6 /* PreferencesViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B0AA5D221736A3800B63BF3 /* Pools.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pools.xcdatamodel; sourceTree = "<group>"; };
 		8BCB5CE12168E61E00E241BF /* MainFrameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFrameController.swift; sourceTree = "<group>"; };
 		8BCB5CE32169A38600E241BF /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		8BF2D6BB2162A3E2009F9D14 /* XdagWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XdagWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +54,12 @@
 		8BF2D6D82162A3E3009F9D14 /* XdagWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XdagWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF2D6DC2162A3E3009F9D14 /* XdagWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XdagWalletUITests.swift; sourceTree = "<group>"; };
 		8BF2D6DE2162A3E3009F9D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF97029225B623800FAA0D6 /* ldus */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ldus; sourceTree = "<group>"; };
+		8BF9702A225B623800FAA0D6 /* client */ = {isa = PBXFileReference; lastKnownFileType = folder; path = client; sourceTree = "<group>"; };
+		8BF9702B225B623800FAA0D6 /* dus */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dus; sourceTree = "<group>"; };
+		8BF97032225B632500FAA0D6 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		8BF97033225B632500FAA0D6 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		8BF97034225B639400FAA0D6 /* XdagWallet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XdagWallet-Bridging-Header.h"; sourceTree = "<group>"; };
 		8BFC02522170F00000E3A8B6 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +95,7 @@
 				8BF2D6D02162A3E3009F9D14 /* XdagWalletTests */,
 				8BF2D6DB2162A3E3009F9D14 /* XdagWalletUITests */,
 				8BF2D6BC2162A3E2009F9D14 /* Products */,
+				8BF9702F225B62E900FAA0D6 /* Xdag */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +112,8 @@
 		8BF2D6BD2162A3E2009F9D14 /* XdagWallet */ = {
 			isa = PBXGroup;
 			children = (
+				8BF97034225B639400FAA0D6 /* XdagWallet-Bridging-Header.h */,
+				8B0AA5D121736A3800B63BF3 /* Pools.xcdatamodeld */,
 				8BF2D6BE2162A3E2009F9D14 /* AppDelegate.swift */,
 				8BCB5CE32169A38600E241BF /* ContentViewController.swift */,
 				8BCB5CE12168E61E00E241BF /* MainFrameController.swift */,
@@ -128,6 +142,34 @@
 				8BF2D6DE2162A3E3009F9D14 /* Info.plist */,
 			);
 			path = XdagWalletUITests;
+			sourceTree = "<group>";
+		};
+		8BF9702F225B62E900FAA0D6 /* Xdag */ = {
+			isa = PBXGroup;
+			children = (
+				8BF97030225B632500FAA0D6 /* openssl */,
+				8BF9702A225B623800FAA0D6 /* client */,
+				8BF9702B225B623800FAA0D6 /* dus */,
+				8BF97029225B623800FAA0D6 /* ldus */,
+			);
+			path = Xdag;
+			sourceTree = "<group>";
+		};
+		8BF97030225B632500FAA0D6 /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				8BF97031225B632500FAA0D6 /* lib */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		8BF97031225B632500FAA0D6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8BF97032225B632500FAA0D6 /* libcrypto.a */,
+				8BF97033225B632500FAA0D6 /* libssl.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +240,7 @@
 				TargetAttributes = {
 					8BF2D6BA2162A3E2009F9D14 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -206,10 +249,12 @@
 					};
 					8BF2D6CC2162A3E3009F9D14 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 						TestTargetID = 8BF2D6BA2162A3E2009F9D14;
 					};
 					8BF2D6D72162A3E3009F9D14 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 						TestTargetID = 8BF2D6BA2162A3E2009F9D14;
 					};
 				};
@@ -240,6 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BF2D6C32162A3E3009F9D14 /* Assets.xcassets in Resources */,
+				8BF9702D225B623800FAA0D6 /* client in Resources */,
+				8BF9702E225B623800FAA0D6 /* dus in Resources */,
+				8BF9702C225B623800FAA0D6 /* ldus in Resources */,
 				8BF2D6C62162A3E3009F9D14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BF2D6BF2162A3E2009F9D14 /* AppDelegate.swift in Sources */,
+				8B0AA5D321736A3800B63BF3 /* Pools.xcdatamodeld in Sources */,
 				8BCB5CE42169A38600E241BF /* ContentViewController.swift in Sources */,
 				8BCB5CE22168E61E00E241BF /* MainFrameController.swift in Sources */,
 				8BFC02532170F00000E3A8B6 /* PreferencesViewController.swift in Sources */,
@@ -434,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = XdagWallet/XdagWallet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -444,7 +494,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "xdag-community.XdagWallet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "XdagWallet/XdagWallet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -452,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = XdagWallet/XdagWallet.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -462,7 +515,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "xdag-community.XdagWallet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "XdagWallet/XdagWallet-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -481,7 +535,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "xdag-community.XdagWalletTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XdagWallet.app/Contents/MacOS/XdagWallet";
 			};
 			name = Debug;
@@ -501,7 +555,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "xdag-community.XdagWalletTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XdagWallet.app/Contents/MacOS/XdagWallet";
 			};
 			name = Release;
@@ -520,7 +574,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "xdag-community.XdagWalletUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = XdagWallet;
 			};
 			name = Debug;
@@ -539,7 +593,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "xdag-community.XdagWalletUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = XdagWallet;
 			};
 			name = Release;
@@ -584,6 +638,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B0AA5D121736A3800B63BF3 /* Pools.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B0AA5D221736A3800B63BF3 /* Pools.xcdatamodel */,
+			);
+			currentVersion = 8B0AA5D221736A3800B63BF3 /* Pools.xcdatamodel */;
+			path = Pools.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8BF2D6B32162A3E1009F9D14 /* Project object */;
 }
