@@ -9,9 +9,9 @@
 #ifndef XdagWalletforMac_Bridging_Header_h
 #define XdagWalletforMac_Bridging_Header_h
 
-#include "xDagWallet/src/client/xdag_wrapper.h"
-#include "xDagWallet/src/client/cli.h"
-#include "xDagWallet/src/client/utils/utils.h"
+#include "../xDagWallet/src/client/xdag_wrapper.h"
+#include "../xDagWallet/src/client/cli.h"
+#include "../xDagWallet/src/client/utils/utils.h"
 #include <ifaddrs.h>
 
 #endif /* XdagWalletforMac_Bridging_Header_h */
